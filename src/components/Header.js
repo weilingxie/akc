@@ -1,23 +1,18 @@
-import React, { useState} from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+const Config = require('../config.json') 
 
 
 //rfce + enter
 const Header = () => {
-    const [ click, setClick ] = useState(false);
-    return (
-        <>
-          <nav className="header">
-            <div className="navbar-container">
-                <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />
-                <Link to="/" className="navbar-logo">                    
-                </Link>
-                <div className='menu-icon'>   
-                  <i class="fas fa-bars"></i>
-                </div>
-            </div>
-          </nav>  
-        </>
+    
+    return (        
+        <div className="header">
+            <p className="header-address">{Config.address}</p>
+            <p className="header-email">{Config.email}</p>
+            <p className="header-phone">{Config.phone}</p>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-youtube"></i>
+        </div>         
     )
 }
 
