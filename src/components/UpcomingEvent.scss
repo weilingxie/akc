@@ -1,0 +1,24 @@
+@import "./design-tokens/css-variables.scss";
+
+.upcomingEvent {
+    background-color: var(--color-additional);
+    
+    color: var(--color-primary);
+    display: flex;
+    width: 100%;
+    margin: Auto;
+    padding: 1em;
+    align-items: center;
+
+
+    .upcomingEvent-title {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .upcomingEvent-content {
+        font-size: 1.5rem;
+        margin-left: 0.5em;
+        text-align: center;
+    }
+}

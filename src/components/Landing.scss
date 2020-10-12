@@ -1,0 +1,47 @@
+@import "./design-tokens/css-variables.scss";
+
+.landing {
+    background-color: var(--color-primary);
+    
+    color: var(--color-secondary);
+    display: flex;
+    width: 100%;
+    margin: Auto;
+
+    .landing-left {
+        width: 20%;
+        padding: 10em 2em;
+
+        .landing-title {
+            font-size: 5rem;
+            font-weight: bold;
+            width: 130%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .landing-title2 {
+            color: var(--color-additional);          
+        }
+
+        .landing-subtitle {
+            color: var(--color-additional);
+            padding: 0;
+            margin: 0;
+        }
+
+        button {
+            color: var(--color-primary);
+            font-weight: bold;
+            margin-top: 2em;
+            font-size: 2rem;
+            padding: 0.25em 0.5em;
+            border-radius: 0.2em;
+        }
+    }
+
+    .landing-right {
+        width: 80%;
+        background-image: url('../background2.jpg');
+    }
+}

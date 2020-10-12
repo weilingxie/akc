@@ -1,0 +1,54 @@
+@import "./design-tokens/css-variables.scss";
+
+.header {
+    background-color: var(--color-primary);
+    color: var(--color-additional);
+    display: flex;
+    width: 100%;
+    margin: Auto;
+    justify-content: space-between;
+
+
+    .header-address {
+        display: inline-flex;
+        align-items: center;
+        .header-address-text {
+            margin-left: 0.5em;
+        }
+        margin-left: 0.5em;
+    }
+
+    .header-email {
+        color: var(--color-secondary);
+        display: inline-flex;
+        align-items: center;
+        .header-email-text {
+            margin-left: 0.5em;
+            padding-right:0.5em;
+            border-right: 0.15rem solid var(--color-secondary);
+        }
+    }
+
+    .header-right {
+        .header-phone {
+            display: inline-flex;
+            align-items: center;
+            .header-phone-text {
+                margin-left:0.5em;
+                padding-right:0.5em;
+                border-right: 0.15rem solid var(--color-secondary);
+            }
+            margin-left: 0.5em;
+            
+        }
+    
+        .header-social-media {
+            display: inline-flex;
+            align-items: center;
+            i {
+                margin-left: 0.5em;                
+            }
+            margin-right: 0.5em;
+        }
+    }
+  }

@@ -5,7 +5,7 @@ const Instructors = () => {
     
     return (        
         <div className="instructors">
-            <h1 className="linstructors-title">UPCOMING EVENT - </h1>
+            <h1 className="linstructors-title">INSTRUCTORS</h1>
             <div className="instructors-7thDan">
                 <h3 className="instructors-dan">7th Ddan</h3>
                 <div className="instructors-card">
