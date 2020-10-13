@@ -1,5 +1,5 @@
 import React from 'react'
-
+const Config = require('../config.json') 
 //rfce + enter
 const Landing = () => {
     
@@ -16,12 +16,12 @@ const Landing = () => {
                 <iframe 
                     title="landing-video" 
                     className="landing-video" 
-                    src="https://www.youtube.com/embed/a-ZQBX4pnc8" 
-                    //src="https://www.youtube-nocookie.com/embed/a-ZQBX4pnc8" 
+                    src={Config["landing-video"]} 
                     frameBorder="0"
                     allowTransparency="false"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen>                        
+                    allowFullScreen
+                >                        
                 </iframe>
             </div>
         </div>         
