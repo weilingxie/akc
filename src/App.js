@@ -13,8 +13,8 @@ function App() {
     <Router>
       <Header />
       <Navbar />
-      {/* <Landing />
-      <UpcomingEvent />
+      <Landing />
+      {/* <UpcomingEvent />
       <Instructors /> */}
     </Router>    
   );

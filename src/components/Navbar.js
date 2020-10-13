@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
     /*const [ click, setClick ] = useState(false);*/
     return (        
-          <div className="navbar">             
+          <div className="navbar"> 
                 <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />                
                 <input type="checkbox" id="nav-toggle" className="nav-toggle"></input>
                                            
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </li>
                   </ul>                  
                 </nav>        
-                <label for="nav-toggle"><i className="fas fa-bars fa-2x nav-toggle-label" ></i></label>         
+                <label htmlFor="nav-toggle"><i className="fas fa-bars fa-2x nav-toggle-label" ></i></label>         
           </div>  
     )
 }

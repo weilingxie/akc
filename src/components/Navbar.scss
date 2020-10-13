@@ -35,7 +35,8 @@
 
 
     .navbar-btns {               
-        position: absolute; 
+        position: absolute;
+        z-index: 999;
         text-align: left;
         background-color: var(--color-secondary);
         color: var(--color-primary);
