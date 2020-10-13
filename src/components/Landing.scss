@@ -13,14 +13,12 @@
     .landing-left {
         background-color: var(--color-primary);
         opacity: 85%;
-        width: 100%;
-        //padding-bottom: 0.5em;                  
+        width: 100%;                
 
         .landing-title {
             font-size: 3rem;
             font-weight: bold;            
             padding-top: 0.5em;
-            padding-left: 0.5em;
             margin: 0;
         }
 
@@ -33,8 +31,6 @@
         }
 
         .landing-subtitle {
-            // padding-top: 1.5em;
-            padding-left: 1.5em;
             margin: 0;
         }
 
@@ -42,7 +38,8 @@
             color: var(--color-secondary);
             font-weight: bold;
             margin-top: 1em;
-            margin-left: 1.5em;
+            margin-bottom: 1em;
+            //margin-left: 1.5em;
             font-size: 1.5rem;
             padding: 0.25em ;
             border-radius: 0.2em;
@@ -50,7 +47,15 @@
     }
 
     .landing-right {
-        display: none;
+        background-color: var(--color-primary);
+        opacity: 85%;
+        .landing-video {
+            width: 90%;
+            height: calc(90vw / 560 *315); 
+            z-index:2;
+            margin-top: 2em;     
+            margin-bottom: 2em;
+        }
     }
 }
 
