@@ -6,27 +6,28 @@ const Config = require('../config.json')
 const Header = () => {
     
     return (        
-        <div className="header">
-            <div className="header-address">
-                <i className="fas fa-map-marked"></i>
-                <p className="header-address-text">{Config.address}</p>
-            </div>
-            <div className="header-right">
-                <div className="header-email">
-                    <i className="fas fa-envelope"></i>
-                    <p className="header-email-text">{Config.email}</p>
-                </div>
-                <div className="header-phone">
-                    <i className="fas fa-phone-square"></i>
-                    <p className="header-phone-text">{Config.phone}</p>
-                </div>
-                <div className="header-social-media">
-                    <i className="fab fa-facebook-square"></i>
-                    <i className="fab fa-youtube"></i>
-                </div>           
-            </div>
-            
-        </div>         
+        <header>           
+            <div className="header-sub">
+                <ul>
+                    <li className="header-address">
+                        <i className="fas fa-map-marked fa-2x" ></i>
+                        <p className="header-address-text" >{Config.address}</p>
+                    </li>
+                    <li className="header-email">
+                        <i className="fas fa-envelope fa-2x"></i>
+                        <p className="header-email-text" >{Config.email}</p>
+                    </li>
+                    <li className="header-phone">
+                        <i className="fas fa-phone-square fa-2x"></i>
+                        <p className="header-phone-text" >{Config.phone}</p>
+                    </li>
+                    <li className="header-social-media">
+                        <i className="fab fa-facebook-square fa-2x"></i>
+                        <i className="fab fa-youtube fa-2x"></i>
+                    </li>    
+                </ul>           
+            </div>                                 
+        </header>         
     )
 }
 

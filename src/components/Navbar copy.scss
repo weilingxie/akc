@@ -1,0 +1,39 @@
+@import "./design-tokens/css-variables.scss";
+
+.navbar {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    display: flex;
+    width: 100%;
+    margin: Auto;
+    justify-content: space-between; 
+
+    img {
+        position: absolute;
+        margin-left: 0.5em;
+    }
+
+    .navbar-btns {        
+        display:inline-flex;
+        justify-content: flex-end;
+        // padding: 1em;        
+
+        .navbar-btn {
+            padding: 0.75em 0.5em;            
+            border-right: 0.001em solid var(--color-primary-opacity);
+
+            &:hover {
+                background-color: var(--color-additional);
+                font-weight: bold;
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+        }
+
+        .navbar-contactus {
+            border: none;
+        }
+    }
+}
+
+@media 

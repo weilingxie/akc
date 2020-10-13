@@ -4,33 +4,36 @@ import React from 'react'
 const Navbar = () => {
     /*const [ click, setClick ] = useState(false);*/
     return (        
-          <div className="navbar">
-                <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />
-                <div></div>
-                <div className="navbar-btns">
-                  <div className="navbar-btn navbar-home">
-                    HOME
-                  </div>
-                  <div className="navbar-btn navbar-aboutus">
-                    ABOUT US
-                  </div>
-                  <div className="navbar-btn navbar-instructors">
-                    INSTRUCTORS
-                  </div>
-                  <div className="navbar-btn navbar-schedule">
-                    SCHEDULE
-                  </div>
-                  <div className="navbar-btn navbar-pricing">
-                    PRICING
-                  </div>
-                  <div className="navbar-btn navbar-events">
-                    EVENTS
-                  </div>
-                  <div className="navbar-btn navbar-contactus">
-                    CONTACT US
-                  </div>
-                </div>
-                
+          <div className="navbar">             
+                <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />                
+                <input type="checkbox" id="nav-toggle" className="nav-toggle"></input>
+                                           
+                <nav className="navbar-btns">
+                  <ul>
+                    <li className="navbar-btn navbar-home">
+                      HOME
+                    </li>
+                    <li className="navbar-btn navbar-aboutus">
+                      ABOUT
+                    </li>
+                    <li className="navbar-btn navbar-instructors">
+                      INSTRUCTORS
+                    </li>
+                    <li className="navbar-btn navbar-schedule">
+                      SCHEDULE
+                    </li>
+                    <li className="navbar-btn navbar-pricing">
+                      PRICING
+                    </li>
+                    <li className="navbar-btn navbar-events">
+                      EVENTS
+                    </li>
+                    <li className="navbar-btn navbar-contactus">
+                      CONTACT
+                    </li>
+                  </ul>                  
+                </nav>        
+                <label for="nav-toggle"><i className="fas fa-bars fa-2x nav-toggle-label" ></i></label>         
           </div>  
     )
 }

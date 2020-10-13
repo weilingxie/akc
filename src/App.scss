@@ -4,3 +4,9 @@
 @import "./components/Navbar.scss";
 @import "./components/Landing.scss";
 @import "./components/UpcomingEvent.scss";
+@import "./components/Instructor.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
