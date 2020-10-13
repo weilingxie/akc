@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/akc/static/css/main.af080e78.chunk.css",
+    "main.css": "/akc/static/css/main.f91da624.chunk.css",
     "main.js": "/akc/static/js/main.cb0ab819.chunk.js",
     "main.js.map": "/akc/static/js/main.cb0ab819.chunk.js.map",
     "runtime-main.js": "/akc/static/js/runtime-main.ba03f860.js",
@@ -8,16 +8,16 @@
     "static/js/2.7b76f623.chunk.js": "/akc/static/js/2.7b76f623.chunk.js",
     "static/js/2.7b76f623.chunk.js.map": "/akc/static/js/2.7b76f623.chunk.js.map",
     "index.html": "/akc/index.html",
-    "precache-manifest.1b5f4f3b67e5dee82b7f54254c29d41f.js": "/akc/precache-manifest.1b5f4f3b67e5dee82b7f54254c29d41f.js",
+    "precache-manifest.ce5322b97b09e7762064d5a5d489c27c.js": "/akc/precache-manifest.ce5322b97b09e7762064d5a5d489c27c.js",
     "service-worker.js": "/akc/service-worker.js",
-    "static/css/main.af080e78.chunk.css.map": "/akc/static/css/main.af080e78.chunk.css.map",
+    "static/css/main.f91da624.chunk.css.map": "/akc/static/css/main.f91da624.chunk.css.map",
     "static/js/2.7b76f623.chunk.js.LICENSE.txt": "/akc/static/js/2.7b76f623.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/akc/static/media/background2.7cb3302c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ba03f860.js",
     "static/js/2.7b76f623.chunk.js",
-    "static/css/main.af080e78.chunk.css",
+    "static/css/main.f91da624.chunk.css",
     "static/js/main.cb0ab819.chunk.js"
   ]
 }
