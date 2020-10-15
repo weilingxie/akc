@@ -1,26 +1,24 @@
 @import "./design-tokens/css-variables.scss";
 
-.landing {
+.landing {   
     background-image: url('../background2.jpg');
-    background-position: center; /* Center the image */
+    background-position: center bottom; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    
-    color: var(--color-additional);    
+    background-size: cover ; /* Resize the background image to cover the entire container */
+
+    color: var(--color-additional);
     width: 100%;    
     text-align: center;
 
     .landing-left {
         background-color: var(--color-primary);
-        opacity: 85%;
         width: 100%;
-        //padding-bottom: 0.5em;                  
+        opacity: 0.85;
 
         .landing-title {
             font-size: 3rem;
             font-weight: bold;            
             padding-top: 0.5em;
-            padding-left: 0.5em;
             margin: 0;
         }
 
@@ -33,8 +31,6 @@
         }
 
         .landing-subtitle {
-            // padding-top: 1.5em;
-            padding-left: 1.5em;
             margin: 0;
         }
 
@@ -42,36 +38,47 @@
             color: var(--color-secondary);
             font-weight: bold;
             margin-top: 1em;
-            margin-left: 1.5em;
+            margin-bottom: 1em;
+            //margin-left: 1.5em;
             font-size: 1.5rem;
             padding: 0.25em ;
             border-radius: 0.2em;
         }
-    }
+     }
 
-    .landing-right {
-        display: none;
-    }
+     .landing-right {
+         background-color: var(--color-primary);
+         opacity: .85;
+        .landing-video {
+            width: 90%;
+            height: calc(90vw / 560 *315); 
+            opacity: 1;
+            z-index:2;
+            margin-top: 2em;     
+            margin-bottom: 2em;
+        }
+     }
 }
 
 @media screen and (min-width: 800px) {
     .landing {
         width: 100%;
-        height: 70vh;
+        height: 50vmin;
         display:flex;        
 
         .landing-left {
             width: 30%;
             height: 100%;
-            opacity:100%;
+            opacity:1;
             display: flex;
             flex-direction: column;
             text-align: left;
             justify-content: flex-end;
             
             .landing-title {
-                font-size: 4rem;
+                font-size: 3rem;
                 z-index:2;
+                padding-left: 2rem;
             }
 
             .landing-title2 {
@@ -92,9 +99,35 @@
         .landing-right {
             width: 70%;
             display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
             height: 100%;
-            background-color: var(--color-primary);
-            opacity: 70%;
+            opacity: .85;
+
+            .landing-video {
+                width: 80%;
+                height: calc(80vw * 0.7 / 560 *315);
+                max-height: 60vmin;
+                opacity: 1;
+                z-index:999;
+                margin-top: 2em;     
+                margin-bottom: 3em;
+                margin-right: 2em;
+            }            
         }
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .landing{
+
+        height: 70vh;
+
+        .landing-left{
+            .landing-title {
+                font-size: 4rem;
+            }   
+        }
+    }
+    
 }

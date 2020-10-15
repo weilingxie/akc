@@ -1,6 +1,72 @@
+@import "./design-tokens/css-variables.scss";
 
+.instructors {
+    background-color: var(--color-primary);
+    color: var(--color-additional);
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
 
+    .instructor-dan{
+        font-size: 1.5rem;
+        padding: 0.7em 0;
+    }
 
-.instructor-photo{
-    width: 100px;
+    
+
+    .instructor-card-container{
+        margin: 0;
+        padding: 0;
+        display: inline-flex;
+        justify-content: center;        
+        
+        .instructor-card{
+            padding: 0 1em;
+        }
+
+    }
+
+    .instructor-photo{
+        max-width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .instructor-name {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .instructors{
+
+        .instructor-type{
+            text-align: left;
+            padding-left: 1em;
+        }
+
+        .instructor-dan {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            opacity: 1;
+            
+            .instructor-dan-name {
+                text-align: left;
+                padding-left: 1em;
+                grid-column: 1 / 2;
+            }
+
+            .instructor-card-container{
+                text-align: center;
+                grid-column: 2 / 3;            
+            }
+        }
+
+        .instructor-kendo {
+            opacity:  .97;
+        }
+    }
+    
 }
