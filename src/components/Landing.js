@@ -10,7 +10,7 @@ const Landing = () => {
                 <p className="landing-title landing-title2">KENDO CLUB</p>
                 <p className="landing-subtitle">Dedicated dojo</p>
                 <p className="landing-subtitle">NZ best instructors team</p>
-                <button className="landing-btn">JOIN US NOW</button>
+                <a href={Config.membership} ><button className="landing-btn">JOIN US NOW</button></a>
             </div>
             <div className="landing-right">
                 <iframe 

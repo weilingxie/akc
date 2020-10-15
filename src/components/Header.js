@@ -22,8 +22,8 @@ const Header = () => {
                         <p className="header-phone-text" >{Config.phone}</p>
                     </li>
                     <li className="header-social-media">
-                        <i className="fab fa-facebook-square fa-2x"></i>
-                        <i className="fab fa-youtube fa-2x"></i>
+                        <a href={Config.facebook}><i className="fab fa-facebook-square fa-2x"></i></a>
+                        <a href={Config.youtube}><i className="fab fa-youtube fa-2x"></i></a>
                     </li>    
                 </ul>           
             </div>                                 

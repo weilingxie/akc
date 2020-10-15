@@ -1,15 +1,37 @@
 @import "./design-tokens/css-variables.scss";
 
 .instructors {
-    background-color: var(--color-primary);
+    //background-color: var(--color-primary);
     color: var(--color-additional);
     width: 100%;
-    padding: 0.5em;
     text-align: center;
+
+    .instructor-kendo {
+        background-color: var(--color-primary-opacity97);
+    }    
+
+    .instructor-iaido {
+        background-color: var(--color-primary-opacity92);
+    }
+
+    .instructor-naginata {
+        background-color: var(--color-primary-opacity88);
+    }
 
     .instructor-dan{
         font-size: 1.5rem;
         padding: 0.7em 0;
+    }
+
+    .instructor-type {
+        margin-top: 0;
+        padding-top: 0.5rem;
+    }
+
+    .instructor-title {
+        margin-top: 0;
+        padding-top: 1rem;
+
     }
 
     
@@ -62,11 +84,7 @@
                 text-align: center;
                 grid-column: 2 / 3;            
             }
-        }
-
-        .instructor-kendo {
-            opacity:  .97;
-        }
+        }        
     }
     
 }

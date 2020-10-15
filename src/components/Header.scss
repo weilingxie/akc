@@ -21,6 +21,12 @@ header {
                  align-items: center;
                  padding-left: 0.5em;
 
+                a {
+                    color: var(--color-additional);
+                    text-decoration: none;
+                    
+                }
+
                  i {
                      padding-right: 0.5em;
                  }
