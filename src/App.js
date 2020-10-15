@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Navbar />
       <Landing />
-      {/* <UpcomingEvent />
-      <Instructors /> */}
+      <UpcomingEvent />
+      {/*<Instructors /> */}
     </Router>    
   );
 }

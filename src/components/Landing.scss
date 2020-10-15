@@ -63,7 +63,7 @@
 @media screen and (min-width: 800px) {
     .landing {
         width: 100%;
-        height: 70vh;
+        height: 50vmin;
         display:flex;        
 
         .landing-left {
@@ -76,7 +76,7 @@
             justify-content: flex-end;
             
             .landing-title {
-                font-size: 4rem;
+                font-size: 3rem;
                 z-index:2;
                 padding-left: 2rem;
             }
@@ -99,22 +99,35 @@
         .landing-right {
             width: 70%;
             display: flex;
-            align-items: center;
+            align-items: flex-end;
             justify-content: flex-end;
-            height: 100%;            
+            height: 100%;
             opacity: .85;
 
             .landing-video {
-                //background: black;
                 width: 80%;
                 height: calc(80vw * 0.7 / 560 *315);
                 max-height: 60vmin;
                 opacity: 1;
                 z-index:999;
                 margin-top: 2em;     
-                margin-bottom: 2em;
-                 margin-right: 2em;
+                margin-bottom: 3em;
+                margin-right: 2em;
             }            
         }
     }
+}
+
+@media screen and (min-width: 1200px) {
+    .landing{
+
+        height: 70vh;
+
+        .landing-left{
+            .landing-title {
+                font-size: 4rem;
+            }   
+        }
+    }
+    
 }

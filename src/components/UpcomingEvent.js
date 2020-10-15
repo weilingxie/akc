@@ -6,8 +6,8 @@ const UpcomingEvent = () => {
     
     return (        
         <div className="upcomingEvent">
-            <div className="upcomingEvent-title">UPCOMING EVENT - </div>
-            <div className="upcomingEvent-content">{Config.upcomingEvent}</div>
+            <h1 className="upcomingEvent-title">UPCOMING EVENTS</h1>
+            <p className="upcomingEvent-content">{Config.upcomingEvent}</p>
         </div>         
     )
 }
