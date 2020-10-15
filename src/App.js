@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Landing />
       <UpcomingEvent />
-      {/*<Instructors /> */}
+      <Instructors />
     </Router>    
   );
 }
