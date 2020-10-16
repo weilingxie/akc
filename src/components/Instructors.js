@@ -68,8 +68,7 @@ const Instructors = () => {
                         </div>
                     </div>                
                 </div>
-            </div>
-            
+            </div>            
 
             <div class="instructor-naginata">
                 <h1 className="instructor-type">NAGINATA</h1>
