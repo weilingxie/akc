@@ -76,7 +76,7 @@
             justify-content: flex-end;
             
             .landing-title {
-                font-size: 3rem;
+                font-size: 2rem;
                 z-index:2;
                 padding-left: 2rem;
             }
@@ -107,7 +107,7 @@
             .landing-video {
                 width: 80%;
                 height: calc(80vw * 0.7 / 560 *315);
-                max-height: 60vmin;
+                max-height: 40vmin;
                 opacity: 1;
                 z-index:999;
                 margin-top: 2em;     
@@ -118,6 +118,27 @@
     }
 }
 
+@media screen and (min-width: 950px) {
+    .landing{
+
+        height: 70vh;
+
+        .landing-left{
+            .landing-title {
+                font-size: 3rem;
+            }   
+        }
+
+        .landing-right{
+            .landing-video {
+                width: calc(0.7*70vw);
+                height: calc(70vw * 0.7 / 560 *315);
+                max-height: 55vmin;
+            }        
+        }
+    }    
+}
+
 @media screen and (min-width: 1200px) {
     .landing{
 
@@ -125,9 +146,16 @@
 
         .landing-left{
             .landing-title {
-                font-size: 4rem;
+                font-size: 5rem;
             }   
         }
-    }
-    
+
+        landing-right{
+            .landing-video {
+                width: calc(0.7*70vw);
+                height: calc(70vw * 0.7 / 560 *315);
+                //max-height: 55vmin;
+            }        
+        }
+    }    
 }
