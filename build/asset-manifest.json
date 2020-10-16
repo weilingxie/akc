@@ -1,0 +1,16 @@
+{
+  "files": {
+
+    "runtime-main.js": "/akc/static/js/runtime-main.ba03f860.js",
+    "runtime-main.js.map": "/akc/static/js/runtime-main.ba03f860.js.map",
+    "static/js/2.fb89c975.chunk.js": "/akc/static/js/2.fb89c975.chunk.js",
+    "static/js/2.fb89c975.chunk.js.map": "/akc/static/js/2.fb89c975.chunk.js.map",
+    "index.html": "/akc/index.html",
+
+    "static/media/App.scss": "/akc/static/media/background2.7cb3302c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba03f860.js",
+
+  ]
+}

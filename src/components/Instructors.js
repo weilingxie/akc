@@ -86,7 +86,7 @@ const Instructors = () => {
                 </div>
             </div>
         </div>         
-    )
+    ) 
 }
 
 export default Instructors
