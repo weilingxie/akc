@@ -6,7 +6,7 @@ const Config = require('../config.json')
 const Header = () => {
     
     return (        
-        <header>           
+        <header className="Header">           
             <div className="header-sub">
                 <ul>
                     <li className="header-address">

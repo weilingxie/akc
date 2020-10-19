@@ -22,13 +22,17 @@ const Instructors = () => {
                         <h3 className="instructor-dan-name">6th Dan</h3>
                         <div className="instructor-card-container">
                             <div className="instructor-card">
+                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Ken-Wells.jpg`} alt="gramham.sayer" />
+                                <p className="instructor-name">Ken Wells</p>
+                            </div>
+                            <div className="instructor-card">
                                 <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Alan-Stephenson.jpg`} alt="gramham.sayer" />
                                 <p className="instructor-name">Alan Stephenson</p>
                             </div>
                             <div className="instructor-card">
-                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Ken-Wells.jpg`} alt="gramham.sayer" />
-                                <p className="instructor-name">Ken Wells</p>
-                            </div>
+                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Shin-Hamada.jpg`} alt="gramham.sayer" />
+                                <p className="instructor-name">Shin Hamada</p>
+                            </div>                            
                             <div className="instructor-card">
                                 <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Oscar-Xing1.jpeg`} alt="gramham.sayer" />
                                 <p className="instructor-name">Oscar Xing</p>

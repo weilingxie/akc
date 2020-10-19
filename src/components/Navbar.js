@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 //rfce + enter
 const Navbar = () => {
-    /*const [ click, setClick ] = useState(false);*/
+    /*const [ click, setClick ] = useState(false);*/    
+
     return (        
           <div className="navbar"> 
                 <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />                
@@ -10,7 +12,7 @@ const Navbar = () => {
                                            
                 <nav className="navbar-btns">
                   <ul>
-                    <li className="navbar-btn navbar-home">
+                    <li className="navbar-btn navbar-home" >
                       HOME
                     </li>
                     <li className="navbar-btn navbar-aboutus">
