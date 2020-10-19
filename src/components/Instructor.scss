@@ -38,8 +38,10 @@
     .instructor-card-container{
         margin: 0;
         padding: 0;
-        display: inline-flex;
-        justify-content: center;        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        //flex-basis: 3rem;
         
         .instructor-card{
             padding: 0 1em;
