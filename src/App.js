@@ -9,14 +9,14 @@ import Instructors from './components/Instructors'
 import './App.scss';
 
 function App() {
-  return (
+  return (    
     <Router>
       <Header />
       <Navbar />
       <Landing />
       <UpcomingEvent />
       <Instructors />
-    </Router>    
+    </Router>        
   );
 }
 

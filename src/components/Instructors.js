@@ -4,8 +4,8 @@ import React from 'react'
 const Instructors = () => {
     
     return (        
-        <div className="instructors">
-            <div class="instructor-kendo">
+        <div id="instructors" className="instructors">
+            <div className="instructor-kendo">
                 <h1 className="instructor-title">INSTRUCTORS</h1>
                 <h1 className="instructor-type">KENDO</h1>
                 <div className="instructor-kendo-container">
@@ -51,7 +51,7 @@ const Instructors = () => {
                 </div>
             </div>
 
-            <div class="instructor-iaido">
+            <div className="instructor-iaido">
                 <h1 className="instructor-type">IAIDO</h1>
                 <div className="instructor-iaido-container">                
                     <div className="instructor-dan instructor-5thDan">
@@ -74,7 +74,7 @@ const Instructors = () => {
                 </div>
             </div>            
 
-            <div class="instructor-naginata">
+            <div className="instructor-naginata">
                 <h1 className="instructor-type">NAGINATA</h1>
                 <div className="instructor-naginata-container">                
                     <div className="instructor-dan instructor-2ndDan">

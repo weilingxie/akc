@@ -4,7 +4,7 @@ const Config = require('../config.json')
 const Landing = () => {
     
     return (        
-        <div className="landing">
+        <div id="landing" className="landing">
             <div className="landing-left">
                 <p className="landing-title landing-title1">AUCKLAND</p>
                 <p className="landing-title landing-title2">KENDO CLUB</p>
@@ -18,7 +18,6 @@ const Landing = () => {
                     className="landing-video" 
                     src={Config["landing-video"]} 
                     frameBorder="0"
-                    allowTransparency="false"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
                 >                        

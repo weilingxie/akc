@@ -6,32 +6,32 @@ const Navbar = () => {
     /*const [ click, setClick ] = useState(false);*/    
 
     return (        
-          <div className="navbar"> 
+          <div id="navbar" className="navbar"> 
                 <img src={`${process.env.PUBLIC_URL}/images/akc-logo-small.png`} alt="Logo" />                
                 <input type="checkbox" id="nav-toggle" className="nav-toggle"></input>
                                            
                 <nav className="navbar-btns">
                   <ul>
                     <li className="navbar-btn navbar-home" >
-                      HOME
+                      <a href="#header">HOME</a>
                     </li>
                     <li className="navbar-btn navbar-aboutus">
-                      ABOUT
+                      <a href="#about">ABOUT</a>
                     </li>
                     <li className="navbar-btn navbar-instructors">
-                      INSTRUCTORS
+                      <a href="#instructors">INSTRUCTORS</a>
                     </li>
                     <li className="navbar-btn navbar-schedule">
-                      SCHEDULE
+                      <a href="#schedule">SCHEDULE</a>
                     </li>
                     <li className="navbar-btn navbar-pricing">
-                      PRICING
+                      <a href="#pricing">PRICING</a>
                     </li>
                     <li className="navbar-btn navbar-events">
-                      EVENTS
+                      <a href="#upcomingEvent">EVENTS</a>
                     </li>
                     <li className="navbar-btn navbar-contactus">
-                      CONTACT
+                    <a href="#contact">CONTACT</a>
                     </li>
                   </ul>                  
                 </nav>        
