@@ -1,0 +1,103 @@
+@import "./design-tokens/css-variables.scss";
+
+.schedule {
+    text-align: center;
+    background-color: var(--color-additional);
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+
+    .schedule-title {
+        margin-top: 0;
+        padding: 1em 0;
+    }
+
+    table, th, td {        
+        border: 1px solid #B1A9A9;
+        border-collapse: collapse;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        th {
+            background-color: #C4C4C4;
+            width: 5rem;
+            height: 3rem;
+        }
+    
+        td{
+            font-size: 0.8rem;
+            height: 3rem;                 
+        }
+
+        .odd {
+            background-color: #E3DFDF;
+        }
+
+        .even {
+            background-color: #ECE6E6;
+        }
+
+        .TUE{
+            display: none;
+        }
+
+        .FRI {
+            display: none;
+        }
+
+        .SUN {
+            display: none;
+        }
+                            
+    }
+    
+    .schedule-note {
+        width: 95%;
+        text-align: left;
+        margin-left: 1em;
+        font-size: 0.8rem;
+        color: var(--color-secondary);
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .schedule {
+        table {
+            border: 1px solid #B1A9A9;
+            border-collapse: collapse;
+            max-width: 800px;
+
+            th, td{
+                font-size: 1.2rem;
+                height: 3em;
+            }
+
+            .TUE{
+                display: table-cell;
+            }
+
+            .FRI {
+                display: table-cell;
+            }
+
+            .SUN {
+                display: table-cell;
+            }                             
+        }
+
+        .schedule-note {
+            width: 70%;
+            text-align: center;
+            margin: auto;
+            padding: auto;
+            font-size: 1.2rem;
+            color: var(--color-secondary);            
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
