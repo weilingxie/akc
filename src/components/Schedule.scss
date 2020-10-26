@@ -61,6 +61,11 @@
         color: var(--color-secondary);
         padding-top: 1em;
         padding-bottom: 1.5em;
+
+        div {
+            text-align: left;
+            padding-top: 0.5em;
+        }
     }
   }
 
@@ -95,12 +100,7 @@
             margin: auto;
             padding: auto;
             font-size: 1.2rem;
-            color: var(--color-secondary);            
-
-            div {
-                text-align: left;
-                padding-top: 0.5em;
-            }
+            color: var(--color-secondary);                        
         }
     }
 }
