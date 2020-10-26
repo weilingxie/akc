@@ -69,10 +69,10 @@ const Schedule = () => {
                     </tbody>
                 </table>
                 <div className="schedule-note">
-                    <p>- Supported Languages: English, Japanese, Mandarin</p>
-                    <p>- Sorry free lessons are no longer offered due to Health & Safety reasons; to participate in lessons you must either be signed up as Beginners Introductory course or Full Membership. Those who are neither are more than welcome to observe lessons</p>
-                    <p>- Beginners please wear trousers or tracksuit pants and tee-shirt. Everything else is provided</p>
-                    <p>- NZKF registered Kenshi are welcome at anytime to the AKC – There is a donation box should you feel you wish to contribute toward the upkeep of the dojo</p>    
+                    <div>- Supported Languages: English, Japanese, Mandarin</div>
+                    <div>- Sorry free lessons are no longer offered due to Health & Safety reasons; to participate in lessons you must either be signed up as Beginners Introductory course or Full Membership. Those who are neither are more than welcome to observe lessons</div>
+                    <div>- Beginners please wear trousers or tracksuit pants and tee-shirt. Everything else is provided</div>
+                    <div>- NZKF registered Kenshi are welcome at anytime to the AKC – There is a donation box should you feel you wish to contribute toward the upkeep of the dojo</div>    
                 </div>
                 
           </div>  

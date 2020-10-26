@@ -49,16 +49,18 @@
 
         .SUN {
             display: none;
-        }
-                            
+        }                
     }
     
     .schedule-note {
         width: 95%;
         text-align: left;
-        margin-left: 1em;
+        padding-left: 1em;
+        margin-bottom: 0;
         font-size: 0.8rem;
         color: var(--color-secondary);
+        padding-top: 1em;
+        padding-bottom: 1.5em;
     }
   }
 
@@ -95,8 +97,9 @@
             font-size: 1.2rem;
             color: var(--color-secondary);            
 
-            p {
+            div {
                 text-align: left;
+                padding-top: 0.5em;
             }
         }
     }
