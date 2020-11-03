@@ -7,6 +7,7 @@ import Landing from './components/Landing'
 import UpcomingEvent from './components/UpcomingEvent'
 import Instructors from './components/Instructors'
 import Schedule from './components/Schedule'
+import Pricing from './components/Pricing'
 import './App.scss';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <UpcomingEvent />
       <Instructors />
       <Schedule />
+      <Pricing />
     </Router>        
   );
 }

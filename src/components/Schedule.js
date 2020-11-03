@@ -24,21 +24,17 @@ const Schedule = () => {
                     <tr className="odd">
                         <td>KENDO</td>
                         <td className="MON">
-                            <p>ALL</p>
-                            <p>7-8.30pm</p>
+                            <p>ALL<br />7-8.30pm</p>
                         </td>
                         <td className="TUE"></td>
                         <td className="WED">
-                            <p>ALL</p>
-                            <p>7-8.30pm</p>
+                            <p>ALL<br />7-8.30pm</p>                            
                         </td>
                         <td className="THU"></td>
                         <td className="FRI"></td>
                         <td className="SAT">
-                            <p>ALL</p>
-                            <p>7-8.30am</p>
-                            <p>BEGINNER</p>
-                            <p>9.30-10.45am</p>
+                            <p>ALL<br />7-8.30am</p>
+                            <p>BEGINNER<br />9.30-10.45am</p>
                         </td>
                         <td className="SUN"></td>                        
                     </tr>

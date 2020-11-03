@@ -1,0 +1,63 @@
+@import "./design-tokens/css-variables.scss";
+
+.pricing {
+    background-color: var(--color-primary);
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+
+    .pricing-title {
+        text-align: center;
+        margin-top: 0;
+        padding: 1em 0;
+        color: var(--color-additional);
+    }
+
+    .pricing-container {
+        background-color: var(--color-additional);        
+         margin-bottom: 0;
+         padding-bottom: 0;         
+        
+        .pricing-subtitle {
+            color: var(--color-secondary);
+            text-decoration: underline;
+            margin: 0.2em;
+            padding: 0.5em 0;
+        }
+        
+        .membertype {
+            background-color: var(--color-primary);
+            color: var(--color-additional);
+            margin: 0.2em;
+            padding: 0.5em;
+            min-height:300px;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+   
+  }
+
+  @media screen and (min-width: 800px) {
+      .pricing {
+        .pricing-content {
+            display: flex;
+            justify-content: center;
+
+            .pricing-container {
+                width: 45%;
+            }
+
+            .pricing-container + .pricing-container {
+                margin-left: 2em;                
+            }
+        }
+        
+      }
+}
