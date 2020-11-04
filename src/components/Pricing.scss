@@ -5,6 +5,7 @@
     width: 100%;
     margin-top: 0;
     padding-top: 0;
+    padding-bottom: 2em;
 
     .pricing-title {
         text-align: center;
@@ -16,7 +17,9 @@
     .pricing-container {
         background-color: var(--color-additional);        
          margin-bottom: 0;
-         padding-bottom: 0;         
+         padding-bottom: 0.5em;
+         margin-left:0.5em;      
+         margin-right:0.5em;      
         
         .pricing-subtitle {
             color: var(--color-secondary);
@@ -28,9 +31,9 @@
         .membertype {
             background-color: var(--color-primary);
             color: var(--color-additional);
-            margin: 0.2em;
+            margin: 0.5em;
             padding: 0.5em;
-            min-height:300px;
+            min-height:150px;            
         }
 
         h3 {
@@ -52,6 +55,15 @@
 
             .pricing-container {
                 width: 45%;
+                max-width: 570px;
+
+                .pricing-subtitle {
+                    margin-left: 0.7em;
+                }
+
+                .membertype {
+                    margin: 1em;
+                }
             }
 
             .pricing-container + .pricing-container {
