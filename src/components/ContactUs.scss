@@ -1,0 +1,63 @@
+@import "./design-tokens/css-variables.scss";
+
+.contactUs {
+    background: var(--color-secondary);
+    color: var(--color-primary);
+    text-align: center;
+    width: 100%;
+
+    .contactUs-container {
+        width: 90%;
+        max-width: 400px;
+        margin: auto;
+
+        .contactUs-title {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 1em 0;
+        }
+
+        .contactUs-form {
+            text-align: left;
+            margin-bottom: 1em;
+
+            label {
+                font-size: 1.5rem;
+
+            }
+
+            input {
+                background-color: var(--color-additional);
+                display: block;
+                width: 100%;
+                line-height: 1.5rem;
+            }
+    
+            textarea {   
+                background-color: var(--color-additional);
+                width: 100%;
+            }                        
+        }  
+
+        button {
+            font-size: 1.5rem;
+            background-color: var(--color-primary);
+            font-weight: bold;
+            color: var(--color-additional);  
+            width: 100%;
+            margin-bottom: 1em;            
+        }    
+    }
+
+    
+
+    
+  }
+
+  @media screen and (min-width: 800px) {
+    .contactUs {
+        .contactUs-container {
+            
+        }
+    }
+}

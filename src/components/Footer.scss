@@ -1,0 +1,13 @@
+@import "./design-tokens/css-variables.scss";
+
+.footer {
+    background-color: var(--color-primary);
+    color: var(--color-additional);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin: 0;        
+    }
+}
