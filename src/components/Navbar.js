@@ -31,7 +31,7 @@ const Navbar = () => {
                       <a href="#upcomingEvent">EVENTS</a>
                     </li>
                     <li className="navbar-btn navbar-contactus">
-                    <a href="#contact">CONTACT</a>
+                    <a href="#contactUs">CONTACT</a>
                     </li>
                   </ul>                  
                 </nav>        

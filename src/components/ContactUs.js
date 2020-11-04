@@ -22,18 +22,17 @@ const ContactUs = () => {
 
         let templateParams = {
             from_name: email,
-            // to_name: Config.email,
-            to_name: 'sqlnever@gmail.com',
+            to_name: Config.email,            
             subject: `Question from email=> ${email}, and phone=> ${phone} from AKC website`,
             message_html: question,
             phone: phone
         }
 
         emailjs.send(
-            'service_vjfzxpu',
-            'template_k2z82s2',
-             templateParams,
-            'user_78YHbcMIVImhwDzUfep0O'
+            Config["email-service"],
+            Config["email-template"],
+            templateParams,
+            Config["email-userId"]
            ).then(()=> {
                 resetForm();
                 alert('Your question has been sent! Thank you!');
