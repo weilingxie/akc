@@ -19,7 +19,7 @@ Auckland Kendo Club Website uses a number of open source projects to work proper
 * [CSS3] - for styling
 * [SASS] - make styling easier
 * [Github] - version control
-* [GH-Page] - host this website for free
+* [Gh-Page] - host this website for free
 
 ### Installation
 
@@ -68,7 +68,7 @@ $ npm run build
 After create a gh-page branch in your repository, you can deploy it
 
 ```sh
-npm run deploy
+$ npm run deploy
 ```
 
 
