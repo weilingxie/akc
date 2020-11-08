@@ -42,7 +42,7 @@ const ContactUs = () => {
     return (        
         <div id="contactUs" className="contactUs">
             <form className="contactUs-container">
-                <h1 className="contactUs-title">CONTACT US</h1>
+                <h1 className="section-title">CONTACT US</h1>
                 <div className="contactUs-form">
                     <label htmlFor="contactUs-email">EMAIL</label>
                     <input id="contactUs-email" value={email} type="email" onChange={e=>setEmail(e.target.value)} />

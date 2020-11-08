@@ -5,49 +5,63 @@ header {
     color: var(--color-additional);
     text-align: center;
     width: 100%;
-    padding: 1em 0;
+    padding: 0.5em 0;    
 
-    .header-sub {
-        text-align: left;
-        
-        ul {        
-            margin: 0;
-            padding: 0;
-            list-style: none;            
+    .header-container {
+        text-align: left;         
 
-            li {
-                 text-decoration: none;
-                 display: flex;
-                 align-items: center;
-                 padding-left: 0.5em;
-
+        section {
+            padding-left: 1em;
+            .header-item {
+                display: flex;
                 a {
                     color: var(--color-additional);
-                    text-decoration: none;
-                    
+                    text-decoration: none;                    
                 }
 
-                 i {
-                     padding-right: 0.5em;
-                 }
-             }
-             .header-email, .header-social-media {
-                 color: var(--color-secondary);
-             }    
-        }
-    }
-  }
+                i {
+                    padding-right: 0.5em;
+                }
+            }
 
-  @media screen and (min-width: 800px) {
+                
+        }
+        .header-email, .header-social-media {
+            color: var(--color-secondary);
+        }            
+    }
+}
+
+@media screen and (min-width: 800px) {
     header {                        
-            ul {
+        .header-container {
                 all: unset;           
                 display: flex;
                 justify-content: space-between;
-                align-items: center;                
-                li {
-                    opacity: 1;
-                    position: relative;
+                align-items: center;
+                max-width: 1000px; 
+                section {
+                    display: flex;
+                }        
+
+                .header-item {
+                    display: flex;
+                    align-items: center;
+                    
+                    p {
+                        padding-right: 2em;
+                    }
+                }
+
+                .header-email,
+                .header-phone {               
+                        border-right: 2px solid var(--color-secondary);                                               
+                }
+
+                .header-item + .header-item {
+                    padding-left: 2em;                    
+                    // opacity: 1;
+                    // position: relative;
                 }                                
             }           
         }

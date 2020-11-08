@@ -4,7 +4,7 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
     text-align: center;
-    width: 100%;
+    width: 100%;    
 
     img {
         // position: absolute;
@@ -84,6 +84,7 @@
     .navbar {
         display: grid;
         grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+        font-size: 1.1rem;
 
         img {
             grid-column: 1 / 2;

@@ -6,7 +6,7 @@ const Schedule = () => {
 
     return (        
         <div id="schedule" className="schedule">
-            <h1 className="schedule-title">SCHEDULE</h1>                           
+            <h1 className="section-title">SCHEDULE</h1>                           
             <table>
                 <thead>
                     <tr>

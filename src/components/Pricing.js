@@ -5,7 +5,7 @@ const Pricing = () => {
     
     return (        
         <div id="pricing" className="pricing">
-            <h1 className="pricing-title">PRICING</h1>
+            <h1 className="section-title pricing-title">PRICING</h1>
             <div className="pricing-content">
                 <section className="pricing-container">
                     <h2 className="pricing-subtitle">ADULT</h2>
