@@ -33,15 +33,15 @@ const Schedule = () => {
                         <td className="THU"></td>
                         <td className="FRI"></td>
                         <td className="SAT">
-                            <p>ALL<br />7-8.30am</p>
-                            <p>BEGINNER<br />9.30-10.45am</p>
+                            <p>ADVANCED<br />8-9am</p>
+                            <p>BEGINNER<br />9.30-11am</p>
                         </td>
                         <td className="SUN"></td>                        
                     </tr>
                         <tr className="even">
                             <td>IAIDO</td>
                             <td className="MON">                        
-                                <p>6-7.30pm</p>
+                                <p>6-7pm</p>
                             </td>
                             <td className="TUE"></td>
                             <td className="WED"></td>

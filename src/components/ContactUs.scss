@@ -45,19 +45,8 @@
             font-weight: bold;
             color: var(--color-additional);  
             width: 100%;
-            margin-bottom: 1em;            
+            margin-bottom: 1em;
+            cursor: pointer;
         }    
-    }
-
-    
-
-    
-  }
-
-  @media screen and (min-width: 800px) {
-    .contactUs {
-        .contactUs-container {
-            
-        }
-    }
+    }    
 }
