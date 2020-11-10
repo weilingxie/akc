@@ -40,9 +40,7 @@ const Schedule = () => {
                     </tr>
                         <tr className="even">
                             <td>IAIDO</td>
-                            <td className="MON">                        
-                                <p>6-7pm</p>
-                            </td>
+                            <td className="MON"></td>
                             <td className="TUE"></td>
                             <td className="WED"></td>
                             <td className="THU">
@@ -54,7 +52,9 @@ const Schedule = () => {
                         </tr>
                         <tr className="odd">
                             <td>NAGINATA</td>
-                            <td className="MON"></td>
+                            <td className="MON">
+                                <p>6-7pm</p>
+                            </td>
                             <td className="TUE"></td>
                             <td className="WED"></td>
                             <td className="THU"></td>
