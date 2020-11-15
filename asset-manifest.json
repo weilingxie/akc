@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/akc/static/css/main.b8200774.chunk.css",
-    "main.js": "/akc/static/js/main.47f168f6.chunk.js",
-    "main.js.map": "/akc/static/js/main.47f168f6.chunk.js.map",
+    "main.css": "/akc/static/css/main.ce2ffa62.chunk.css",
+    "main.js": "/akc/static/js/main.ce0ef644.chunk.js",
+    "main.js.map": "/akc/static/js/main.ce0ef644.chunk.js.map",
     "runtime-main.js": "/akc/static/js/runtime-main.5e25f3b3.js",
     "runtime-main.js.map": "/akc/static/js/runtime-main.5e25f3b3.js.map",
     "static/js/2.4d8fe595.chunk.js": "/akc/static/js/2.4d8fe595.chunk.js",
     "static/js/2.4d8fe595.chunk.js.map": "/akc/static/js/2.4d8fe595.chunk.js.map",
     "index.html": "/akc/index.html",
-    "static/css/main.b8200774.chunk.css.map": "/akc/static/css/main.b8200774.chunk.css.map",
+    "static/css/main.ce2ffa62.chunk.css.map": "/akc/static/css/main.ce2ffa62.chunk.css.map",
     "static/js/2.4d8fe595.chunk.js.LICENSE.txt": "/akc/static/js/2.4d8fe595.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/akc/static/media/background2.21cedad3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5e25f3b3.js",
     "static/js/2.4d8fe595.chunk.js",
-    "static/css/main.b8200774.chunk.css",
-    "static/js/main.47f168f6.chunk.js"
+    "static/css/main.ce2ffa62.chunk.css",
+    "static/js/main.ce0ef644.chunk.js"
   ]
 }
