@@ -74,10 +74,13 @@
         display: flex;
         justify-content: center;
         .instructors-container {
-            max-width: 1000px;    
+            width: 100%;
+            max-width:1400px;
             .instructor-type{
+                font-size: 2.5rem;
                 text-align: left;
-                // padding-left: 1em;
+                padding-top: 1em;
+                padding-bottom: 1em;
             }
     
             .instructor-dan {
