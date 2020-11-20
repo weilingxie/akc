@@ -149,7 +149,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .landing{        
+    .landing{
         .landing-left{
             
             .landing-title {
@@ -190,11 +190,13 @@
     .landing{
 
         .landing-left{
-            .landing-title {
-                font-size: 5rem;
-            }   
 
-            .landing-btn {     
+            // .landing-title {       
+                         
+            //     // font-size: 5rem;
+            // }   
+
+            .landing-btn {
                 width: 17rem;           
                 margin-left: 2rem;
                 margin-bottom: 2em;
