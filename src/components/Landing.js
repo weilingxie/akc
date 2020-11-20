@@ -6,25 +6,28 @@ const Landing = () => {
     return (        
         <div id="landing" className="landing">
             <div className="landing-left">
-                <p className="landing-title landing-title1">AUCKLAND</p>
-                <p className="landing-title landing-title2">KENDO CLUB</p>
-                <p className="landing-subtitle">Dedicated dojo</p>
-                <p className="landing-subtitle">NZ best instructors team</p>
-                <a href={Config.membership} ><button className="landing-btn">JOIN US NOW</button></a>
+                <div className="landing-left-container">
+                    <p className="landing-title landing-title1">AUCKLAND</p>
+                    <p className="landing-title landing-title2">KENDO CLUB</p>
+                    <p className="landing-subtitle">Dedicated dojo</p>
+                    <p className="landing-subtitle">NZ best instructors team</p>
+                    <a href={Config.membership} ><button className="landing-btn">JOIN US NOW</button></a>
+                </div>
             </div>
             <div className="landing-right">
-                <iframe 
-                    title="landing-video" 
-                    className="landing-video" 
-                    src={Config["landing-video"]} 
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen
-                    width="100%"
-                    height="100%"
-                    frameborder="0"
-                >                        
-                </iframe>
+                <div className="landing-right-container">
+                    <iframe 
+                        title="landing-video" 
+                        className="landing-video" 
+                        src={Config["landing-video"]} 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen
+                        width="100%"
+                        height="100%"
+                        frameBorder="0"
+                    >                        
+                    </iframe>
+                </div>
             </div>
         </div>         
     )

@@ -11,16 +11,19 @@
         background: red;
     }
 
-    .upcomingEvent-title {
-        // font-size: 2rem;
-        // font-weight: 500; 
-        margin-top: 0;
-        padding: 1em 0;       
-    }
+    .upcomingEvent-container {
+        padding-left: 5vw;
 
-    .upcomingEvent-content {
-        font-size: 1.5rem;
-        margin: 0 1em;
-        text-align: left;
+        .upcomingEvent-title {
+            margin-top: 0;
+            padding: 1em 0;       
+        }
+    
+        .upcomingEvent-content {
+            font-size: 1.5rem;
+            margin: 0;            
+            text-align: left;
+        }
     }
+    
 }

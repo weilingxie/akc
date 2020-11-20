@@ -2,89 +2,102 @@
 
 .instructors {
     color: var(--color-additional);
+    background-color: var(--color-primary);
     width: 100%;
     text-align: center;
 
-    .instructor-kendo {
-        background-color: var(--color-primary-opacity97);
-    }    
-
-    .instructor-iaido {
-        background-color: var(--color-primary-opacity92);
-    }
-
-    .instructor-naginata {
-        background-color: var(--color-primary-opacity88);
-    }
-
-    .instructor-dan{
-        font-size: 1.5rem;
-        padding: 0.7em 0;
-    }
- 
-    .instructor-type {
-        margin-top: 0;
-        padding-top: 0.5rem;
-    }
-
-    .instructor-title {
-        margin-top: 0;
-        padding: 1em 0; 
-    }
-
+    .instructors-container {        
+        .instructor-kendo {
+            background-color: var(--color-primary-opacity97);
+            padding-left: 5vw;
+        }    
     
-
-    .instructor-card-container{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        //flex-basis: 3rem;
-        
-        .instructor-card{
-            padding: 0 1em;
+        .instructor-iaido {
+            background-color: var(--color-primary-opacity92);
+            padding-left: 5vw;
         }
-
-    }
-
-    .instructor-photo{
-        max-width: 100px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .instructor-name {
-        font-size: 1rem;
-        margin: 0;
-        padding: 0;
-    }
+    
+        .instructor-naginata {
+            background-color: var(--color-primary-opacity88);
+            padding-left: 5vw;
+        }
+    
+        .instructor-dan{
+            font-size: 1.5rem;
+            padding: 0.7em 0;
+        }
+     
+        .instructor-type {
+            margin-top: 0;
+            padding-top: 0.5rem;
+        }
+    
+        .instructor-title {
+            margin-top: 0;
+            padding: 1em 0; 
+        }
+    
+        
+    
+        .instructor-card-container{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            //flex-basis: 3rem;
+            
+            .instructor-card{
+                padding: 0 1em;
+            }
+    
+        }
+    
+        .instructor-photo{
+            max-width: 100px;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .instructor-name {
+            font-size: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+    }    
 }
 
 @media screen and (min-width: 800px) {
     .instructors{
-
-        .instructor-type{
-            text-align: left;
-            padding-left: 1em;
-        }
-
-        .instructor-dan {
-            display: grid;
-            grid-template-columns: 1fr 3fr 1fr;
-            opacity: 1;
-            
-            .instructor-dan-name {
+        padding-left: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        .instructors-container {
+            max-width: 1000px;    
+            .instructor-type{
                 text-align: left;
-                padding-left: 1em;
-                grid-column: 1 / 2;
+                // padding-left: 1em;
             }
-
-            .instructor-card-container{
-                text-align: center;
-                grid-column: 2 / 3;            
-            }
-        }        
+    
+            .instructor-dan {
+                display: grid;
+                grid-template-columns: 1fr 3fr 1fr;
+                opacity: 1;
+                
+                .instructor-dan-name {
+                    text-align: left;
+                    // padding-left: 1em;
+                    grid-column: 1 / 2;
+                }
+    
+                .instructor-card-container{
+                    text-align: center;
+                    grid-column: 2 / 3;            
+                }
+            }        
+        }
+        
     }
     
 }
