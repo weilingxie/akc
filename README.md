@@ -10,6 +10,9 @@ AKC is a responsive, ReactJS powered Single Page Application built for Auckland 
 ## Website URL
 https://weilingxie.github.io/akc/
 
+## Wireframe Design using Figma
+https://www.figma.com/file/gpwgIDfeUYBbABmrhcvUKGU9/AKC-Website---Desktop?node-id=0%3A1
+
 ## Tech
 
 Auckland Kendo Club Website uses a number of open source projects to work properly:
