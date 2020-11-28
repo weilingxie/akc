@@ -1,0 +1,53 @@
+@import "./design-tokens/css-variables.scss";
+
+.aboutUs {
+    background: var(--color-addtional);
+    color: var(--color-primary);
+    text-align: center;
+    width: 100%;
+
+    .aboutus-container{
+
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+
+        .text-container{
+
+            font-size: 1 rem;
+            text-align: left;
+            
+
+        }
+
+       
+
+
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+.aboutUs{
+    
+    
+
+    .aboutus-container{
+    
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+        padding-bottom: 2em;
+        .text-container{
+            font-size: 1.5rem;
+            width: 45%;
+        }
+        .image-container{
+            width: 45%;
+        }
+    }
+}
+
+
+}
