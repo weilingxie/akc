@@ -2,6 +2,12 @@
 
 AKC is a responsive, ReactJS powered Single Page Application built for Auckland Kendo Club.
 
+## Author
+William(Weiling) Xie
+
+## Contributor
+Oscar Xing
+
 ## Why ReactJS?
 
   - If it is a sole webpage, the simplest choice should be pure HTML + CSS, we don't even need Javascript.
