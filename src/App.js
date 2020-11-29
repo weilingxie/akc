@@ -11,6 +11,7 @@ import Pricing from './components/Pricing'
 import AboutUs from './components/AboutUs'
 import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
+import Calendar from './components/Calendar'
 import './App.scss';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Schedule />
       <Pricing />
       <AboutUs />
+      <Calendar />
       <ContactUs />
       <Footer />
     </Router>        

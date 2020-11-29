@@ -1,0 +1,19 @@
+@import "./design-tokens/css-variables.scss";
+
+.calendar {
+    background-color: var(--color-primary);
+
+    .section-title {
+        color: var(--color-additional);
+        text-align: center;        
+    }
+
+    .calendar-container {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2em;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}

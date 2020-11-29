@@ -9,7 +9,7 @@
     img {
         // position: absolute;
          margin-left: 0.5em;
-        width: 5rem;
+         width: 5rem;
     }
 
     .nav-toggle {
@@ -76,18 +76,18 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 945px) {
     .nav-toggle-label {
         display: none;
     }
 
     .navbar {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+        grid-template-columns: minmax(80px, 1fr) auto minmax(860px, 3fr) 1fr;
         font-size: 1.1rem;
 
         img {
-            grid-column: 1 / 2;
+            grid-column: 1 / 2;            
         }
 
         .navbar-btns {

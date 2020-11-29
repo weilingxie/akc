@@ -30,6 +30,9 @@ const Navbar = () => {
                     <li className="navbar-btn navbar-events">
                       <a href="#upcomingEvent">EVENTS</a>
                     </li>
+                    <li className="navbar-btn navbar-events">
+                      <a href="#calendar">CALENDAR</a>
+                    </li>
                     <li className="navbar-btn navbar-contactus">
                     <a href="#contactUs">CONTACT</a>
                     </li>
