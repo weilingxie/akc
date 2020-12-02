@@ -1,4 +1,5 @@
 import React from 'react'
+const Config = require('../config.json') 
 
 const AboutUs = ()=>{
 
@@ -29,11 +30,10 @@ const AboutUs = ()=>{
                 </div>
 
                 <div className ="image-container">
-                <img className="aboutusimage" src={`${process.env.PUBLIC_URL}/images/aboutusimage.jpg`} alt="aboutimage" />
-
-
-
+                    <img className="aboutusimage" src={`${process.env.PUBLIC_URL}/images/aboutusimage.jpg`} alt="aboutimage" />
+                    <a href={Config.membership} ><button className="aboutus-btn">TAKE ACTION!</button></a>
                 </div>
+                
             </div>
 
 
