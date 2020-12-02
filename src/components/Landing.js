@@ -7,11 +7,11 @@ const Landing = () => {
         <div id="landing" className="landing">
             <div className="landing-left">
                 <div className="landing-left-container">
-                    <p className="landing-title landing-title1">AUCKLAND</p>
-                    <p className="landing-title landing-title2">KENDO CLUB</p>
-                    <p className="landing-subtitle">Dedicated dojo</p>
-                    <p className="landing-subtitle">NZ best instructors team</p>
-                    <a href={Config.membership} ><button className="landing-btn">JOIN US NOW</button></a>
+                    <p className="landing-title landing-title1">CULTIVATE YOUR BEING</p>
+                    {/* <p className="landing-title landing-title2">KENDO CLUB</p> */}
+                    <p className="landing-subtitle">Lifelong mental and physical development</p>
+                    {/* <p className="landing-subtitle">NZ best instructors team</p> */}
+                    <a href={Config.membership} ><button className="landing-btn">BEGIN YOUR JOURNEY!</button></a>
                 </div>
             </div>
             <div className="landing-right">

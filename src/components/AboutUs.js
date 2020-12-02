@@ -12,13 +12,19 @@ const AboutUs = ()=>{
             <div className = "aboutus-container">
 
                 <div className = "text-container">
-                    <p className = "aboutus-text"> The true strength of the Auckland Kendo Club is its members </p>
+                    <p className = "aboutus-text"> Auckland Kendo Club isn’t just a martial arts dojo. Since 1988, our founding members have formed a tight-knit family that upholds unique values, such as:</p>
 
-                    <p className = "aboutus-text">From its core founding members of over 20 years, to the very newest trainees, the people are the reason our club contains an unbreakable bond</p>
+                    <p className = "aboutus-text"> • Resilience </p>
+                    <p className = "aboutus-text"> • Togetherness</p>
+                    <p className = "aboutus-text"> • Continuous Improvement </p>
+                    <p className = "aboutus-text"> • Humility</p>
 
-                    <p className = "aboutus-text">The Auckland Kendo Club “family of members” all share a common goal regardless of nationality, to improve themselves both in training and in life. Each member enjoys the energy and encouragement recieved by training with other members at our Dojo. No ego’s, just genuine support and competitive spirit from your fellow “Kendo-ka (fellow practitioners)”</p>
+                    <p className = "aboutus-text"> Regardless of race, age, gender or class, all of our members strive to improve themselves in both training and life. We ensure that each member receives genuine encouragement and support to realize their potential – without any egos getting in the way. </p>
 
-                    <p className = "aboutus-text">Not only in training, our members enjoy socializing together at planned events and casual outings. In training and social events many have formed strong life long friendships through the “Magic” of Kendo</p>
+                    <p className = "aboutus-text"> In addition to personal development, kendo offers many opportunities. Auckland Kendo Club members have competed in national and international tournaments, trained under world-class sensei and formed lifelong friendships. These eye-opening experiences are truly remarkable. </p>
+
+                    <p className = "aboutus-text"> If you’re looking for a new challenge with other growth-minded people, then head down to Auckland Kendo Club now! It’s just a matter of intent.</p>
+
 
                 </div>
 

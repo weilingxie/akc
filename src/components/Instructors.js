@@ -68,7 +68,7 @@ const Instructors = () => {
                                 </div>
                                 <div className="instructor-card">
                                     <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Matthew-fox-Wilson1.jpeg`} alt="gramham.sayer" />
-                                    <p className="instructor-name">Matthew fox-Wilson</p>
+                                    <p className="instructor-name">Matthew Fox-Wilson</p>
                                 </div>
                             </div>
                         </div>                
