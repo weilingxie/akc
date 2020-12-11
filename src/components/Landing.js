@@ -11,7 +11,12 @@ const Landing = () => {
                     {/* <p className="landing-title landing-title2">KENDO CLUB</p> */}
                     <p className="landing-subtitle">Lifelong mental and physical development</p>
                     {/* <p className="landing-subtitle">NZ best instructors team</p> */}
-                    <a href={Config.membership} ><button className="landing-btn">BEGIN YOUR JOURNEY!</button></a>
+                    <a href={Config.membership} >
+                        <button className="landing-btn">
+                            <div>BEGIN YOUR JOURNEY</div>
+                            <div className="landing-btn-2">(BEGINNER COURSE)</div>
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className="landing-right">

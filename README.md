@@ -14,7 +14,7 @@ Oscar Xing
   - However, considering in the 2nd phase, we will add content management features, and in the 3rd phase, we aim to add membership management features, framework like ReactJS is needed.
 
 ## Website URL
-https://weilingxie.github.io/akc/
+https://akc.org.nz
 
 ## Wireframe Design using Figma
 https://www.figma.com/file/gpwgIDfeUYBbABmrhcvUKGU9/AKC-Website---Desktop?node-id=0%3A1
