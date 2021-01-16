@@ -30,7 +30,7 @@ const Pricing = () => {
                             <p className="membertype-price">
                                 $150 for 6 lessons - Adult
                                 <br/>
-                                $50 for 6 lessons - Child 
+                                $75 for 6 lessons - Child 
                             </p>
                         </div>
                     </section>
