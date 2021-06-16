@@ -8,9 +8,7 @@ const UpcomingEvent = () => {
         <div id="upcomingEvent" className="upcomingEvent" >
             <div className="upcomingEvent-container">
                 <h1 className="section-title">UPCOMING EVENTS</h1>
-                <p className="upcomingEvent-content">{Config.upcomingEvent} <a href={Config.eventurl}>-DETAILS-</a></p>
-                <p className="upcomingEvent-content">{Config.upcomingEvent2} </p>
-                <p className="upcomingEvent-content">{Config.upcomingEvent3} </p>
+                <p className="upcomingEvent-content">{Config.upcomingEvent} <a href={Config.membership}>-DETAILS-</a></p>
                 <p className="upcomingEvent-content upcomingEvent-subcontent"><a href={Config.membership}>-INFORMATION-</a> Sign up by ringing or texting 0274063188</p>
             </div>
         </div>         
