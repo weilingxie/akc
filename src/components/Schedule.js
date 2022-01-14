@@ -34,7 +34,8 @@ const Schedule = () => {
                             <td className="THU"></td>
                             <td className="FRI"></td>
                             <td className="SAT">
-                                <p>ADVANCED<br />8-9am</p>
+                                <p>ADVANCED<br />7-8.30am</p>
+                                <p>JUNIOR SAMURAI<br />8.30-9.30am</p>
                                 <p>BEGINNER<br />9.30-11am</p>
                             </td>
                             <td className="SUN"></td>                        
