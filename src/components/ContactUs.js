@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import _ from "lodash";
-import * as emailjs from "emailjs-com";
-const Config = require("../config.json");
+import { sendEmail } from "../helpers/emailService";
+import {
+  EmailValidator,
+  PhoneValidator,
+  QuestionValidator,
+} from "../helpers/ContactUsValidator";
 
 //rfce + enter
 const ContactUs = () => {
@@ -24,49 +28,42 @@ const ContactUs = () => {
     setQuestionError(false);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     resetError();
 
-    validate();
-
-    if (!emailError && !phoneError && !questionError) {
-      throttledSendEmail();
+    if (validateForm()) {
+      await throttledSendEmail();
+      alert("Your question has been sent! Thank you!");
+      resetForm();
     }
   };
 
-  const validate = () => {
-    const emailRegex =
-      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-    const phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4,5})$/;
+  const validateForm = () => {
+    let isValid = true;
 
-    setEmailError(!emailRegex.test(email));
-    setPhoneError(!phoneRegex.test(phone));
-    setQuestionError(!question);
+    if (!EmailValidator(email)) {
+      isValid = false;
+      setEmailError(true);
+    }
+    if (!PhoneValidator(phone)) {
+      isValid = false;
+      setPhoneError(true);
+    }
+
+    if (!QuestionValidator(question)) {
+      isValid = false;
+      setQuestionError(true);
+    }
+
+    return isValid;
   };
 
-  const sendEmail = () => {
-    const templateParams = {
-      from_name: email,
-      to_name: Config.email,
-      subject: `Question from email=> ${email}, and phone=> ${phone} from AKC website`,
-      message: question,
-      phone: phone,
-    };
-    emailjs
-      .send(
-        Config["email-service"],
-        Config["email-template"],
-        templateParams,
-        Config["email-userId"]
-      )
-      .then(() => {
-        resetForm();
-        alert("Your question has been sent! Thank you!");
-      });
+  const callSendEmail = async () => {
+    await sendEmail(email, phone, question);
   };
 
-  const throttledSendEmail = _.throttle(sendEmail, 2000);
+  const throttledSendEmail = _.throttle(callSendEmail, 2000);
 
   return (
     <div id="contactUs" className="contactUs">
