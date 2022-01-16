@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import _ from "lodash";
-import { sendEmail } from "../helpers/emailService";
+import { sendEmail } from "../../helpers/emailService";
 import {
   EmailValidator,
   PhoneValidator,
   QuestionValidator,
-} from "../helpers/ContactUsValidator";
+} from "./ContactUsValidator";
 
 //rfce + enter
 const ContactUs = () => {

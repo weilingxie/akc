@@ -1,5 +1,5 @@
 import React from 'react'
-const Config = require('../config.json') 
+const Config = require('../../config.json') 
 //rfce + enter
 const Landing = () => {
     

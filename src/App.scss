@@ -1,36 +1,37 @@
-/*@import "./design-tokens/scss-variables.scss";*/
 @import "./design-tokens/css-variables.scss";
-@import "./components//Header.scss";
-@import "./components/Navbar.scss";
-@import "./components/Landing.scss";
-@import "./components/UpcomingEvent.scss";
-@import "./components/Instructor.scss";
-@import "./components/Schedule.scss";
-@import "./components/Pricing.scss";
-@import "./components/AboutUs.scss";
-@import "./components/ContactUs.scss";
-@import "./components/Footer.scss";
-@import "./components/Calendar.scss";
+@import "./components/Header/Header.scss";
+@import "./components/Navbar/Navbar.scss";
+@import "./components/Landing/Landing.scss";
+@import "./components/UpcomingEvent/UpcomingEvent.scss";
+@import "./components/Instructors/Instructors.scss";
+@import "./components/Schedule/Schedule.scss";
+@import "./components/Pricing/Pricing.scss";
+@import "./components/AboutUs/AboutUs.scss";
+@import "./components/ContactUs/ContactUs.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Calendar/Calendar.scss";
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .section {
-    max-width: 96%;
+  max-width: 96%;
 }
 
 .section-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0.5em 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.5em 0;
 }

@@ -1,21 +1,21 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Landing from './components/Landing'
-import UpcomingEvent from './components/UpcomingEvent'
-import Instructors from './components/Instructors'
-import Schedule from './components/Schedule'
-import Pricing from './components/Pricing'
-import AboutUs from './components/AboutUs'
-import ContactUs from './components/ContactUs'
-import Footer from './components/Footer'
-import Calendar from './components/Calendar'
-import './App.scss';
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Landing from "./components/Landing/Landing";
+import UpcomingEvent from "./components/UpcomingEvent/UpcomingEvent";
+import Instructors from "./components/Instructors/Instructors";
+import Schedule from "./components/Schedule/Schedule";
+import Pricing from "./components/Pricing/Pricing";
+import AboutUs from "./components/AboutUs/AboutUs";
+import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
+import Calendar from "./components/Calendar/Calendar";
+import "./App.scss";
 
 function App() {
-  return (    
+  return (
     <Router>
       <Header />
       <Navbar />
@@ -28,7 +28,7 @@ function App() {
       <Calendar />
       <ContactUs />
       <Footer />
-    </Router>        
+    </Router>
   );
 }
 
