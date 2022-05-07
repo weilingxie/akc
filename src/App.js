@@ -55,7 +55,7 @@ function App() {
       <Instructors />
       <Schedule />
       <Pricing />
-      <AboutUs />
+      <AboutUs membershipUrl={config.membershipUrl} />
       <Calendar />
       <ContactUs />
       <Footer />
