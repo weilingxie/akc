@@ -1,20 +1,21 @@
 import * as emailjs from "emailjs-com";
-const Config = require("../config.json");
+import getConfig from "../helpers/getConfig";
 
 const sendEmail = async (email, phone, question) => {
+  const config = await getConfig();
   const newContent = {
     from_name: email,
-    to_name: Config.email,
+    to_name: config.email,
     subject: `Question from email=> ${email}, and phone=> ${phone} from AKC website`,
     message: question,
     phone: phone,
   };
 
   await emailjs.send(
-    Config["email-service"],
-    Config["email-template"],
+    config.emailService,
+    config.emailTemplate,
     newContent,
-    Config["email-userId"]
+    config.emailUserId
   );
 
   return Promise.resolve();
