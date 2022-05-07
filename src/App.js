@@ -39,7 +39,10 @@ function App() {
         youtube={config.youtube}
       />
       <Navbar />
-      <Landing />
+      <Landing
+        membershipUrl={config.membershipUrl}
+        landingVideoUrl={config.landingVideoUrl}
+      />
       <UpcomingEvent />
       <Instructors />
       <Schedule />
