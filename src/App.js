@@ -13,20 +13,16 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import Calendar from "./components/Calendar/Calendar";
 import "./App.scss";
-import db from "./helpers/firebase";
-import { collection, getDocs } from "firebase/firestore";
+import getConfig from "./helpers/getConfig";
 
 function App() {
   const [config, setConfig] = useState({});
   useEffect(() => {
-    const getConfig = async () => {
-      const querySnapshot = await getDocs(collection(db, "config"));
-      querySnapshot.forEach((doc) => {
-        setConfig(doc.data());
-        console.log(doc.data());
-      });
+    const fetchConfig = async () => {
+      const config = await getConfig();
+      setConfig(config);
     };
-    getConfig();
+    fetchConfig();
   }, []);
 
   return (
