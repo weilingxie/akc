@@ -43,7 +43,11 @@ function App() {
         membershipUrl={config.membershipUrl}
         landingVideoUrl={config.landingVideoUrl}
       />
-      <UpcomingEvent />
+      <UpcomingEvent
+        upcomingEvent1={config.upcomingEvent1}
+        upcomingEvent2={config.upcomingEvent2}
+        upcomingEvent3={config.upcomingEvent3}
+      />
       <Instructors />
       <Schedule />
       <Pricing />
