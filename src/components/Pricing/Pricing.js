@@ -1,7 +1,15 @@
 import React from "react";
 
-//rfce + enter
-const Pricing = () => {
+const Pricing = ({
+  adultMonthlyPrice,
+  childMonthlyPrice,
+  adultSixLessonsPrice,
+  childSixLessonsPrice,
+  shortTermVisitorThreeMonthPrice,
+  joiningFee,
+  nzkfFee,
+  floorMaintainingFee,
+}) => {
   return (
     <div id="pricing" className="pricing">
       <div className="pricing-container">
@@ -11,38 +19,43 @@ const Pricing = () => {
             <div className="membertype">
               <h3 className="membertype-title">Full Adult membership</h3>
               <p className="membertype-description">16 years and over</p>
-              <p className="membertype-price">$85 per month</p>
+              <p className="membertype-price">${adultMonthlyPrice} per month</p>
             </div>
             <div className="membertype">
               <h3 className="membertype-title">Full Child membership  </h3>
               <p className="membertype-description">15 years and under</p>
-              <p className="membertype-price">$50 per month</p>
+              <p className="membertype-price">${childMonthlyPrice} per month</p>
             </div>
             <div className="membertype">
               <h3 className="membertype-title">Short term visitor</h3>
               <p className="membertype-description">Can only use twice</p>
-              <p className="membertype-price">$150 for a 3-month period</p>
+              <p className="membertype-price">
+                ${shortTermVisitorThreeMonthPrice} for a 3-month period
+              </p>
             </div>
             <div className="membertype">
               <h3 className="membertype-title">Beginner courses</h3>
               <p className="membertype-description">Kendo, Iaido or Naginata</p>
               <p className="membertype-price">
-                $150 for 6 lessons - Adult
-                <br />
-                $100 for 6 lessons - Child 
+                ${adultSixLessonsPrice} for 6 lessons - Adult
+                <br />${childSixLessonsPrice} for 6 lessons - Child 
               </p>
             </div>
           </section>
           <section className="pricing-note">
             <h2>Please note:</h2>
             <p>• Family concessions are available.</p>
-            <p>• A $50 one-off joining fee of is required for new members.</p>
             <p>
-              • All full-time members are required to pay a $50 annual NZFK fee.{" "}
+              • A ${joiningFee} one-off joining fee of is required for new
+              members.
             </p>
             <p>
-              • An annual floor maintenance levy of $30 applies to all full-time
-              members – regardless of age.
+              • All full-time members are required to pay a ${nzkfFee} annual
+              NZFK fee.
+            </p>
+            <p>
+              • An annual floor maintenance levy of ${floorMaintainingFee}{" "}
+              applies to all full-time members – regardless of age.
             </p>
             <p>
               • Payments can be made on a weekly, fortnightly or monthly basis.

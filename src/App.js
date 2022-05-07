@@ -50,7 +50,16 @@ function App() {
       />
       <Instructors />
       <Schedule />
-      <Pricing />
+      <Pricing
+        adultMonthlyPrice={config.adultMonthlyPrice}
+        childMonthlyPrice={config.childMonthlyPrice}
+        adultSixLessonsPrice={config.adultSixLessonsPrice}
+        childSixLessonsPrice={config.childSixLessonsPrice}
+        shortTermVisitorThreeMonthPrice={config.shortTermVisitorThreeMonthPrice}
+        joiningFee={config.joiningFee}
+        nzkfFee={config.nzkfFee}
+        floorMaintainingFee={config.floorMaintainingFee}
+      />
       <AboutUs membershipUrl={config.membershipUrl} />
       <Calendar />
       <ContactUs />
