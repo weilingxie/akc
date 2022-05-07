@@ -47,6 +47,10 @@ function App() {
         upcomingEvent1={config.upcomingEvent1}
         upcomingEvent2={config.upcomingEvent2}
         upcomingEvent3={config.upcomingEvent3}
+        upcomingEvent1Url={config.upcomingEvent1Url}
+        upcomingEvent2Url={config.upcomingEvent2Url}
+        upcomingEvent3Url={config.upcomingEvent3Url}
+        membershipUrl={config.membershipUrl}
       />
       <Instructors />
       <Schedule />
