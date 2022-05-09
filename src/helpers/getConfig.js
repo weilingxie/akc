@@ -7,7 +7,6 @@ const getConfig = async () => {
   querySnapshot.forEach((doc) => {
     config = doc.data();
   });
-  console.log(config);
   return config;
 };
 
