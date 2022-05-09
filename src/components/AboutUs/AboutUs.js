@@ -1,7 +1,6 @@
 import React from "react";
-const Config = require("../../config.json");
 
-const AboutUs = () => {
+const AboutUs = ({ membershipUrl }) => {
   return (
     <div id="aboutUs" className="aboutUs">
       <h1 className="section-title">ABOUT US</h1>
@@ -50,7 +49,7 @@ const AboutUs = () => {
             src={`${process.env.PUBLIC_URL}/images/aboutusimage.jpg`}
             alt="aboutimage"
           />
-          <a href={Config.membership}>
+          <a href={membershipUrl}>
             <button className="aboutus-btn">TAKE ACTION!</button>
           </a>
         </div>

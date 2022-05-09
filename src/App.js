@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from "./components/Header/Header";
@@ -13,18 +13,54 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import Calendar from "./components/Calendar/Calendar";
 import "./App.scss";
+import getConfig from "./helpers/getConfig";
 
 function App() {
+  const [config, setConfig] = useState({});
+  useEffect(() => {
+    const fetchConfig = async () => {
+      const config = await getConfig();
+      setConfig(config);
+    };
+    fetchConfig();
+  }, []);
+
   return (
     <Router>
-      <Header />
+      <Header
+        address={config.address}
+        email={config.email}
+        phone={config.phone}
+        facebook={config.facebook}
+        youtube={config.youtube}
+      />
       <Navbar />
-      <Landing />
-      <UpcomingEvent />
+      <Landing
+        membershipUrl={config.membershipUrl}
+        landingVideoUrl={config.landingVideoUrl}
+      />
+      <UpcomingEvent
+        upcomingEvent1={config.upcomingEvent1}
+        upcomingEvent2={config.upcomingEvent2}
+        upcomingEvent3={config.upcomingEvent3}
+        upcomingEvent1Url={config.upcomingEvent1Url}
+        upcomingEvent2Url={config.upcomingEvent2Url}
+        upcomingEvent3Url={config.upcomingEvent3Url}
+        membershipUrl={config.membershipUrl}
+      />
       <Instructors />
       <Schedule />
-      <Pricing />
-      <AboutUs />
+      <Pricing
+        adultMonthlyPrice={config.adultMonthlyPrice}
+        childMonthlyPrice={config.childMonthlyPrice}
+        adultSixLessonsPrice={config.adultSixLessonsPrice}
+        childSixLessonsPrice={config.childSixLessonsPrice}
+        shortTermVisitorThreeMonthPrice={config.shortTermVisitorThreeMonthPrice}
+        joiningFee={config.joiningFee}
+        nzkfFee={config.nzkfFee}
+        floorMaintainingFee={config.floorMaintainingFee}
+      />
+      <AboutUs membershipUrl={config.membershipUrl} />
       <Calendar />
       <ContactUs />
       <Footer />
