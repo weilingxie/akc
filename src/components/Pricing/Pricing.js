@@ -35,7 +35,7 @@ const Pricing = ({
             </div>
             <div className="membertype">
               <h3 className="membertype-title">Beginner courses</h3>
-              <p className="membertype-description">Kendo, Iaido or Naginata</p>
+              <p className="membertype-description">Kendo and Iaido</p>
               <p className="membertype-price">
                 ${adultSixLessonsPrice} for 6 lessons - Adult
                 <br />${childSixLessonsPrice} for 6 lessons - Child 
@@ -51,7 +51,7 @@ const Pricing = ({
             </p>
             <p>
               • All full-time members are required to pay a ${nzkfFee} annual
-              NZFK fee.
+              NZKF fee.
             </p>
             <p>
               • An annual floor maintenance levy of ${floorMaintainingFee}{" "}
