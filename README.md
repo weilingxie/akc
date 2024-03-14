@@ -73,6 +73,9 @@ For production release:
 $ npm run build
 ```
 
+#### Create a CNAME file in build folder with content
+akc.org.nz
+
 #### Deploy to Github page
 After create a gh-page branch in your repository, you can deploy it
 
