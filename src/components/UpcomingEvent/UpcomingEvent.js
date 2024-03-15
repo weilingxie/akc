@@ -15,17 +15,17 @@ const UpcomingEvent = ({
         <h1 className="section-title">UPCOMING EVENTS</h1>
         {upcomingEvent1 && (
           <p className="upcomingEvent-content">
-            {upcomingEvent1} <a href={upcomingEvent1Url}>-DETAILS-</a>
+            {upcomingEvent1} <a href={upcomingEvent1Url} target="_blank" rel="noreferrer">-DETAILS-</a>
           </p>
         )}
         {upcomingEvent2 && (
           <p className="upcomingEvent-content">
-            {upcomingEvent2} <a href={upcomingEvent2Url}>-DETAILS-</a>
+            {upcomingEvent2} <a href={upcomingEvent2Url} target="_blank" rel="noreferrer">-DETAILS-</a>
           </p>
         )}
         {upcomingEvent3 && (
           <p className="upcomingEvent-content">
-            {upcomingEvent3} <a href={upcomingEvent3Url}>-DETAILS-</a>
+            {upcomingEvent3} <a href={upcomingEvent3Url} target="_blank" rel="noreferrer">-DETAILS-</a>
           </p>
         )}
         <p className="upcomingEvent-content upcomingEvent-subcontent">

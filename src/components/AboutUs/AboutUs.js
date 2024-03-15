@@ -49,7 +49,7 @@ const AboutUs = ({ membershipUrl }) => {
             src={`${process.env.PUBLIC_URL}/images/aboutusimage.jpg`}
             alt="aboutimage"
           />
-          <a href={membershipUrl}>
+          <a href={membershipUrl}  target="_blank" rel="noreferrer">
             <button className="aboutus-btn">TAKE ACTION!</button>
           </a>
         </div>

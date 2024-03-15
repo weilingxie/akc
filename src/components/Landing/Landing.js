@@ -9,7 +9,7 @@ const Landing = ({ membershipUrl, landingVideoUrl }) => {
           <p className="landing-subtitle">
             Lifelong mental and physical development
           </p>
-          <a href={membershipUrl}>
+          <a href={membershipUrl} target="_blank" rel="noreferrer">
             <button className="landing-btn">
               <div>BEGIN YOUR JOURNEY</div>
               <div className="landing-btn-2">(BEGINNER COURSE)</div>
