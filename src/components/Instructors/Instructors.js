@@ -41,7 +41,7 @@ const Instructors = () => {
                                 <p className="instructor-name">Kirk Doran</p>
                             </div>
                             <div className="instructor-card">
-                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Rina-Kobayashi.jpeg`} alt="rina.kobayashi" />
+                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Rina-Kobayashi.jpg`} alt="rina.kobayashi" />
                                 <p className="instructor-name">Rina Kobayashi</p>
                             </div>
                         </div>               
@@ -61,10 +61,6 @@ const Instructors = () => {
                                 <div className="instructor-card">
                                     <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Brent-Hansen.jpg`} alt="gramham.sayer" />
                                     <p className="instructor-name">Brent Hansen</p>
-                                </div>
-                                <div className="instructor-card">
-                                    <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Matthew-fox-Wilson1.jpeg`} alt="gramham.sayer" />
-                                    <p className="instructor-name">Matthew Fox-Wilson</p>
                                 </div>
                             </div>
                         </div>                

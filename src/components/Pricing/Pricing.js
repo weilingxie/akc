@@ -57,9 +57,7 @@ const Pricing = ({
               applies to all full-time members – regardless of age.
             </p>
             <p>
-              For further questions, please text Kenneth on 0274 397 371
-              (replies within 24 hours), or ring Graham on 0274 063188 if
-              urgent.
+              For further questions, please send an email to aucklandkendo@gmail.com.
             </p>
           </section>
         </div>
