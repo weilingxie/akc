@@ -30,16 +30,16 @@ const Instructors = () => {
                                     <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Oscar-Xing1.jpeg`} alt="gramham.sayer" />
                                     <p className="instructor-name">Oscar Xing</p>
                                 </div>
+                                <div className="instructor-card">
+                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Kirk-Doran.jpeg`} alt="kirk.doran" />
+                                <p className="instructor-name">Kirk Doran</p>
+                            </div>
                             </div>
                         </div>
                 </div>
                     <div className="instructor-dan instructor-5thDan">
                         <h3 className="instructor-dan-name">5th Dan</h3>
-                        <div className="instructor-card-container">
-                            <div className="instructor-card">
-                                <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Kirk-Doran.jpeg`} alt="kirk.doran" />
-                                <p className="instructor-name">Kirk Doran</p>
-                            </div>
+                        <div className="instructor-card-container">                            
                             <div className="instructor-card">
                                 <img className="instructor-photo" src={`${process.env.PUBLIC_URL}/images/Rina-Kobayashi.jpg`} alt="rina.kobayashi" />
                                 <p className="instructor-name">Rina Kobayashi</p>
