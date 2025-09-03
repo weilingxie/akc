@@ -35,10 +35,9 @@ const Pricing = ({
             </div>
             <div className="membertype">
               <h3 className="membertype-title">Beginner courses</h3>
-              <p className="membertype-description">Kendo, Iaido or Naginata</p>
+              <p className="membertype-description">$100 per art (Kendo or Iaido)</p>
               <p className="membertype-price">
-                ${adultSixLessonsPrice} for 6 lessons - Adult
-                <br />${childSixLessonsPrice} for 6 lessons - Child 
+                $180 for both arts
               </p>
             </div>
           </section>
